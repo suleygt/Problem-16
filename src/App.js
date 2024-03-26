@@ -37,13 +37,13 @@ export default function FAQ() {
 }
 
 function Accordion({ faq }) {
-  const [isOpen, setOpen] = useState(false); // isOpen state'ini tanımla
+  const [isOpen, setOpen] = useState(false); 
 
   return (
     <div className='pt-6'>
       <dt>
         <button
-          onClick={() => setOpen((prevOpen) => !prevOpen)} // isOpen state'ini güncelle
+          onClick={() => setOpen((prevOpen) => !prevOpen)} 
           className='flex w-full items-start justify-between text-left text-gray-900'
         >
           <span className='text-base font-semibold leading-7'>
